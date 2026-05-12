@@ -1,23 +1,31 @@
-# Bar do Tonho - App PHP
+🍻 Bar do Tonho - Gestão de Estoque e Vendas
+Sistema prático desenvolvido em PHP e MySQL para controle de fluxo de mercadorias e frente de caixa.
 
-## Como rodar
-1. Coloque a pasta `bar_estoque_php` dentro do `htdocs` do XAMPP.
-2. Abra o phpMyAdmin.
-3. Importe `database.sql` para criar tudo do zero.
-4. Abra no navegador: `http://localhost/bar_estoque_php/login.php`
+🚀 Funcionalidades
+Autenticação: Sistema de login e cadastro de usuários.
 
-## Se voce ja tinha importado a versao antiga
-Use `atualizar_banco_sem_apagar.sql` no phpMyAdmin.
+Gestão de Estoque: Cadastro de produtos com preço, quantidade e definição de estoque mínimo.
 
-## Banco
-Nome do banco: `bar_estoque`
-Usuario padrao do XAMPP: `root`
-Senha padrao: vazia
+Alertas Inteligentes: Popup de aviso automático quando um produto atinge o nível crítico no estoque.
 
-## Funcoes
-- Login e cadastro
-- Estoque
-- Produto com preco, quantidade e estoque minimo
-- Popup quando produto estiver acabando
-- Venda
-- Historico de compras/vendas
+PDV (Vendas): Interface para realização de vendas rápidas.
+
+Relatórios: Histórico completo de entradas e saídas (compras/vendas).
+
+🛠️ Como Rodar o Projeto
+Mova a pasta do projeto para o diretório htdocs do seu servidor local (XAMPP/Laragon).
+
+Acesse o phpMyAdmin e crie um banco de dados chamado bar_estoque.
+
+Instalação Limpa: Importe o arquivo database.sql.
+
+Atualização: Caso já utilize uma versão anterior, utilize o arquivo atualizar_banco_sem_apagar.sql para manter seus dados.
+
+Acesse no navegador: http://localhost/nome-da-sua-pasta/login.php
+
+🗄️ Configurações do Banco (Padrão)
+DB Name: bar_estoque
+
+User: root
+
+Password: (vazio)
