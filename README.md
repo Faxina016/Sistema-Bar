@@ -1,4 +1,4 @@
-#Bar do Tonho - Gestão de Estoque e Vendas#
+Bar do Tonho - Gestão de Estoque e Vendas#
 Sistema prático desenvolvido em PHP e MySQL para controle de fluxo de mercadorias e frente de caixa.
 
 🚀 Funcionalidades
